@@ -1,0 +1,64 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: lightblue;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+h2{
+	margin-bottom: 5%;
+}
+
+.container{
+	background-color: white;
+	box-shadow: 0 0 10px #00000030;
+	border-radius: 5px;
+	padding: 5%;
+}
+
+.add-todo{
+	width: 30%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.element{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: solid 1px gray;
+	padding: 1%;
+}
+
+.element:last-child{
+	border-bottom: 0;
+}
+
+.element p{
+	margin:0;
+	width: 100%;
+	text-align: left;
+	margin-left: 3%;
+}
+
+.forUpdate{
+	width: 100%;
+	margin-left: 3%;
+	margin-right: 3%;
+	border: solid 1px gray;
+}
+
+#body-list{
+	max-height: 400px;
+	overflow: auto;
+}
+
+:focus{
+	outline: 0;
+}
